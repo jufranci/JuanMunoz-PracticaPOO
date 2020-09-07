@@ -1,6 +1,5 @@
 package juanmunoz.practicapoo;
 public class auto {
-
     String marca = "", modelo = "";
     int kilometraje = 0;
 

@@ -1,4 +1,5 @@
 package juanmunoz.practicapoo;
+import java.util.Scanner;
 public class JuanMunozPracticaPOO {
     public static void main(String[] args) {
         //1- perro
@@ -13,6 +14,9 @@ public class JuanMunozPracticaPOO {
         a1.estadoAuto();
         a1.imprimir();
         
-                
+        //3- cuentaBancaria
+        cuentaBancaria c1;
+        c1 = new cuentaBancaria ("Francisco", "Caja de ahorro", 100000);
+        c1.extraer();
     }    
 }
